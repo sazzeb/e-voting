@@ -1,0 +1,62 @@
+body {
+    /* font-family: 'Roboto', sans-serif !important; */
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+.colored {
+    background-color: dimgrey;
+}
+
+/* header */
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+/* end header */
+
+/* s1 */
+
+/* .s1-bg-img {
+    background: url('../img/background/ngnparty.jpg') no-repeat scroll 0% 0%;
+    background-position: top 10px;
+    max-width: 100%;
+} */
+
+.s1-bg-img img {
+    padding: 10px;
+    width: 100%;
+    height: 500px;
+    opacity: 0.5;
+}
+
+/* end s1 */
+
+/* s2 */
+
+.candidate-avatar {
+    width: 100px;
+    height: 100px;
+}
+
+.data-fixed-size-lead {
+    background-color: darkgreen
+}
+
+@media screen and (min-width: 800px) {
+    .data-fixed-size-lead {
+        max-width: 18% !important;
+    }
+}
+
+/* end s2 */
+
+/* footer */
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: whitesmoke;
+}
+
+/* end footer */
